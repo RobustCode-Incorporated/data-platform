@@ -1,0 +1,21 @@
+{
+  "name": "data-platform",
+  "version": "1.0.0",
+  "description": "Data engineering simulation platform for e-gov system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node data-platform/jobs/run.simulation.js",
+    "test:db": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobustCode-Incorporated/data-platform.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "dotenv": "^17.4.2",
+    "pg": "^8.20.0"
+  }
+}
