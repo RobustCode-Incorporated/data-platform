@@ -14,7 +14,7 @@ export async function createCitizen() {
         postnom: faker.person.lastName(),
         prenom: faker.person.firstName(),
         dateNaissance: faker.date.birthdate({ min: 18, max: 65, mode: 'age' }),
-        sexe: Math.random() > 0.5 ? 'M' : 'F',
+        sexe: Math.random() > 0.5 ? 'Homme' : 'Femme',
         lieuNaissance: faker.location.city(),
         numeroUnique: generateNumeroUnique(),
         password: faker.internet.password(),
